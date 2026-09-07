@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Guess The Player</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { background-color: #07090E; color: #E2E8F0; font-family: system-ui, -apple-system, sans-serif; }
+  </style>
+</head>
+<body class="min-h-screen p-6 sm:p-12">
+  <div class="max-w-3xl mx-auto space-y-8">
+    <a href="./index.html" class="inline-flex items-center gap-2 text-xs font-bold text-amber-400 hover:text-amber-300 transition">
+      &larr; Back to Home
+    </a>
+
+    <div class="border-b border-white/10 pb-6">
+      <h1 class="text-3xl font-black text-white uppercase tracking-tight mb-2">Privacy Policy</h1>
+      <p class="text-xs text-slate-400">Effective Date: September 2026 • Last Updated: September 2026</p>
+    </div>
+
+    <div class="space-y-6 text-sm leading-relaxed text-slate-300">
+      <section class="space-y-2">
+        <h2 class="text-base font-bold text-white uppercase tracking-wider">1. Overview</h2>
+        <p>Guess The Player ("we", "our", or "the application") is committed to protecting your privacy. This Privacy Policy details how we handle information, API tokens, and user credentials.</p>
+      </section>
+
+      <section class="space-y-2">
+        <h2 class="text-base font-bold text-white uppercase tracking-wider">2. Data Storage & Local Processing</h2>
+        <p>Guess The Player functions as a local content creation tool. All API tokens (including Google Gemini API keys, YouTube OAuth credentials, TikTok Access Tokens, and Meta Page Access Tokens) are stored locally on your own machine in your private environment file (<code class="bg-slate-900 px-1.5 py-0.5 rounded text-amber-300">.env.local</code>) or in your browser's local state. We do not collect, transmit, or sell your personal credentials to any external servers.</p>
+      </section>
+
+      <section class="space-y-2">
+        <h2 class="text-base font-bold text-white uppercase tracking-wider">3. Third-Party API Integrations</h2>
+        <p>When you explicitly trigger automated rendering and publishing actions, data (such as the generated video file, title, hashtags, and description) is transmitted directly to the authorized third-party platform API endpoints:</p>
+        <ul class="list-disc list-inside space-y-1 text-slate-400 pl-2">
+          <li>Google / YouTube Data API v3</li>
+          <li>TikTok Content Posting API v2</li>
+          <li>Meta Graph API for Facebook Reels</li>
+        </ul>
+      </section>
+
+      <section class="space-y-2">
+        <h2 class="text-base font-bold text-white uppercase tracking-wider">4. Data Security</h2>
+        <p>All network communications with third-party APIs utilize industry-standard Transport Layer Security (TLS/HTTPS) encryption to protect your data in transit.</p>
+      </section>
+
+      <section class="space-y-2">
+        <h2 class="text-base font-bold text-white uppercase tracking-wider">5. Contact</h2>
+        <p>If you have any questions or privacy inquiries, please contact the developer via GitHub.</p>
+      </section>
+    </div>
+
+    <div class="pt-6 border-t border-white/10 flex items-center justify-between text-xs text-slate-500">
+      <span>&copy; 2026 Guess The Player Studio</span>
+      <a href="./terms.html" class="text-amber-400 hover:underline">Terms of Service</a>
+    </div>
+  </div>
+</body>
+</html>
